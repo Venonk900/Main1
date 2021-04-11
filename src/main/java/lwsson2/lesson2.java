@@ -31,7 +31,7 @@ public class lesson2 {
      * @param b
      * @return
      */
-    public static boolean checkIfSumInRange(int a, int b) {
+   /* public static boolean checkIfSumInRange(int a, int b) {
         int sum = a + b;
         if (sum > 10 && sum < 20){
             return true;
@@ -49,7 +49,7 @@ public class lesson2 {
      * @param a
      * @return
      */
-    public static int greater_than_or_less_than_zero(int a) {
+  /*  public static int greater_than_or_less_than_zero(int a) {
         if (a >= 0) System.out.println("Число " + a + "положительное");
         else System.out.println("Число " + a + " отрицательное");
         return a;
@@ -64,7 +64,7 @@ public class lesson2 {
      * @param a
      * @return
      */
-    public static boolean true_or_false(int a) {
+/*    public static boolean true_or_false(int a) {
         if (a < 0){
             return true;
             return false;
@@ -79,7 +79,7 @@ public class lesson2 {
      * @param word
      * @param times
      */
-    public static void print_word(String words, int times) {
+ /*   public static void print_word(String words, int times) {
         for (int i = 0; i < times; i++)
             System.out.println(words);
 
@@ -95,7 +95,7 @@ public class lesson2 {
      * @param year
      * @return
      */
-    public static boolean year_bad_or_nice(int year) {
+   /* public static boolean year_bad_or_nice(int year) {
         if (!(year % 4 == 0) || ((year % 100 == 0) && !(year % 400 == 0))) {
             System.out.println(year + " г. не високосный");
             return true;
